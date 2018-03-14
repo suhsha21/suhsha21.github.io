@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+body {
+background: linear-gradient(to right, #8c0d26, black);
+font-family: 'Crimson Text', serif;
+
+}
+/*navigationbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #8c0d26;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/*navigationbar*/
+/*column*/
+.main {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+    -webkit-column-rule-color: lightblue; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: lightblue; /* Firefox */
+    column-rule-color: lightblue;
+}
+.title{
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+  color: lightblue;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+@-webkit-keyframes example {
+  from {color: #8c0d26;}
+    to{color: lightblue;}
+}
+  .name{
+    font-family: 'Cabin Sketch', cursive;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: lightblue;
+
+    }
+    .main{
+    font-family: 'Cabin Sketch', cursive;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    }
+    .body{
+    font-family: 'Crimson Text', serif;
+    width: 300px;
+    border: 25px solid #8c0d26;
+    padding: 25px;
+    margin: 25px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: lightblue;
+    }
+    img {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 8px;
+    }
